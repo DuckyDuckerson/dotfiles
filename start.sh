@@ -31,7 +31,7 @@ else
     echo "No package manager found"
 fi
 
-cp -r nvim ~/.config/nvim
+cp -r nvim/ ~/.config/
 cp -r .tmux.conf ~/.tmux.conf
 
 echo "Open tmux and press <C-a> + i to install plugins"
