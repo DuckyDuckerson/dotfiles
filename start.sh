@@ -31,8 +31,6 @@ else
     echo "No package manager found"
 fi
 
-git clone git@github.com:christoomey/vim-tmux-navigator.git ~/.vim/pack/plugins/start/vim-tmux-navigator
-
 cp -r nvim ~/.config/nvim
 cp -r .tmux.conf ~/.tmux.conf
 
